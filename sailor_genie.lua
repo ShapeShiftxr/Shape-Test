@@ -4,7 +4,7 @@
 
 if not game:IsLoaded() then game.Loaded:Wait() end
 
-local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/refs/heads/main/source.lua"))()
 
 local Players           = game:GetService("Players")
 local LocalPlayer       = Players.LocalPlayer
